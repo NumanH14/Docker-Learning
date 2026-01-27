@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   web:
+    image:
     build: .
     ports:
       - "5002:5002"
