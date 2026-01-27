@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5002:5000"
+  redis:
+    image: "redis:latest"
