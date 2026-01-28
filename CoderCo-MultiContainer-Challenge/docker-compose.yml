@@ -8,3 +8,11 @@ services:
 
   redis:
     image: redis:latest
+  volumes:
+    -redis-data:/etc/data
+
+  
+volumes:
+ - redis-data:
+
+  
