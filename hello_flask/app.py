@@ -9,7 +9,7 @@ def hello_world():
     db = MySQLdb.connect(
         host="mydb",    # Hostname of the MySQL container
         user="root",    # Username to connect to MySQL
-        passwd="my-secret-pw",  # Password for the MySQL user
+        passwd="my-secret-pw",  # Password for the MySQL user Why is your details in plain text available for people to see
         db="mysql"      # Name of the database to connect to
     )
     cur = db.cursor()
